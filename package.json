@@ -1,0 +1,13 @@
+{
+  "private": false,
+  "scripts": {
+    "dev": "wrangler dev",
+    "publish": "wrangler publish",
+    "format": "dprint fmt"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "3.4.0",
+    "dprint": "0.23.1",
+    "wrangler": "0.0.19"
+  }
+}
